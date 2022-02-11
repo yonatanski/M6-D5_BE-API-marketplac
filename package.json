@@ -1,0 +1,33 @@
+{
+  "name": "m6-d5-be-api-marketplac",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/server.js",
+    "dev": "nodemon -r dotenv/config ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yonatanski/M6-D5_BE-API-marketplac.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yonatanski/M6-D5_BE-API-marketplac/issues"
+  },
+  "homepage": "https://github.com/yonatanski/M6-D5_BE-API-marketplac#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "pg": "^8.7.1",
+    "sequelize": "^6.12.0-beta.3"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
