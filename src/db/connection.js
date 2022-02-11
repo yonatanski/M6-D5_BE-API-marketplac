@@ -11,7 +11,7 @@ export const authenticateDatabase = async () => {
      * alter:true -> if there is any change apply without dropping tables
      * force:true -> apply changes and drop tables
      */
-    await sequelize.sync({ alert: true, logging: false })
+    await sequelize.sync({ alter: true, logging: false })
     console.log("✅ Connection has been established successfully.")
   } catch (error) {
     console.log(error)
